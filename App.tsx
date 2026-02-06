@@ -1,9 +1,9 @@
 
 import React, { useState, useEffect, useCallback, useRef } from 'react';
-import GameCanvas from './components/GameCanvas.tsx';
-import HUD from './components/HUD.tsx';
-import LandingPage from './components/LandingPage.tsx';
-import LoadingScreen from './components/LoadingScreen.tsx';
+import GameCanvas from './components/GameCanvas';
+import HUD from './components/HUD';
+import LandingPage from './components/LandingPage';
+import LoadingScreen from './components/LoadingScreen';
 import { GameState, Item, Recipe, Entity, ResourceType, GameStatus, Npc, NpcType, WeatherType } from './types';
 import { MAP_SIZE, PLAYER_SPEED, INITIAL_INVENTORY, RECIPES, TICK_RATE } from './constants';
 import { getSurvivalTips } from './services/geminiService';
